@@ -1,0 +1,33 @@
+# Java compiled files
+*.class
+
+# Maven generated files
+target/
+
+# Build directories
+build/
+
+# Distribution files
+dist/
+
+# Generated WAR files
+*.war
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Old bundled Oracle JDBC driver
+src/main/webapp/WEB-INF/lib/*.jar
+
+# Operating system files
+.DS_Store
+Thumbs.db
